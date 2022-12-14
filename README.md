@@ -2,8 +2,17 @@
 implemented Spring boot architecture
 Created a Data Set 
 
+index of files: 
 
-Sudo code 
+RewardsCalculator.java
+RewardsCalculatorController.java -- Controller Class
+DataException.java -- Exception Class
+Transactions.java  -- Model Class
+RewardsCalculatorService.java  -- Service Class
+Application.properties
+RewardsApplicationTests.java
+RewardsServiceTestConfiguration.java
+
 
 
 Formula for calculating the reward points for the customers per transaction
@@ -19,3 +28,4 @@ if(expenses > 50 && expenses < 100)
 {
     rewardPts = 50 + (expenses - 100)*2;
 }
+
